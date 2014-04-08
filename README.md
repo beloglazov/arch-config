@@ -128,9 +128,10 @@ Once the steps are completed, reboot, login, type `startx`, and enjoy! :)
 
 Previously, I kept my whole configuration in the
 [arch-xmonad-zsh](https://github.com/beloglazov/arch-xmonad-zsh) repo, however,
-it wasn't scalable, as I coudn't for example easily use my Vim configuration in
-Arch and on a Mac. I'm decided to split the configuration into multiple repos to
-make more reusable. In particular, have a look at the following repos:
+it wasn't scalable, as I couldn't for example easily use my Vim or shell
+configuration in Arch and on a Mac. I've decided to split the configuration into
+multiple repos to make it more reusable. In particular, have a look at the
+following repos:
 
 - https://github.com/beloglazov/xmonad-config
 - https://github.com/beloglazov/fish-config
