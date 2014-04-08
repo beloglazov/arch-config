@@ -126,12 +126,16 @@ Once the steps are completed, reboot, login, type `startx`, and enjoy! :)
 
 # Where is Xmonad, Vim, and fish configuration?
 
-I'm decided to split the configuration into multiple repos to make reusable. In
-particular, have a look at the following:
+Previously, I kept my whole configuration in the
+[arch-xmonad-zsh](https://github.com/beloglazov/arch-xmonad-zsh) repo, however,
+it wasn't scalable, as I coudn't for example easily use my Vim configuration in
+Arch and on a Mac. I'm decided to split the configuration into multiple repos to
+make more reusable. In particular, have a look at the following repos:
 
 - https://github.com/beloglazov/xmonad-config
 - https://github.com/beloglazov/fish-config
 - https://github.com/beloglazov/vimrc
+- https://github.com/beloglazov/mac-config
 
 
 ## License
