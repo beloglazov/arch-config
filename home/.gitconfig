@@ -1,0 +1,9 @@
+[core]
+	editor = vim
+[user]
+	name = Anton Beloglazov
+	email = anton.beloglazov@gmail.com
+[color]
+	ui = true
+[push]
+	default = current

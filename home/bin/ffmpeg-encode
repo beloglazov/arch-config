@@ -1,0 +1,4 @@
+#!/bin/sh
+
+ffmpeg -i "$1" -an -vcodec libx264 -pass 1 -preset veryslow -threads 0 -b:v 3000k -x264opts frameref=15:fast_pskip=0 -f rawvideo -y /dev/null
+ffmpeg -i "$1" -acodec libvo-aacenc -ab 256k -ar 96000 -vcodec libx264 -pass 2 -preset veryslow -threads 0 -b:v 3000k -x264opts frameref=15:fast_pskip=0 "$2"
