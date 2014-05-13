@@ -32,21 +32,44 @@ noremap <C-k> gk<C-y>k
 noremap <C-h> h
 noremap <C-l> l
 
+" Easy redo
+nnoremap U <C-r>
+
+" Movement: operator-pending mode
+xnoremap p ip
+xnoremap ( i(
+xnoremap { i{
+xnoremap [ i[
+xnoremap < i<
+xnoremap ` i"
+xnoremap ' i'
+xnoremap " i"
+onoremap p ip
+onoremap ( i(
+onoremap { i{
+onoremap [ i[
+onoremap < i<
+onoremap ` i"
+onoremap ' i'
+onoremap " i"
+
 " Duplicate a line and comment the first copy
 nnoremap gcd yyPgccj_
 
+" Duplicate a region and comment the first copy
+vnoremap gcc gc<Esc>
+
+" Duplicate a region and comment the first copy
+vnoremap gcd ygv<Esc>pgvgc<Esc>
+
 " Format code
-nnoremap <space>i :format<cr>
+noremap <space>i :format<cr>
 
 " Change current word - kill
 noremap K ciw
 
-" Change current WORD - kill
-noremap J ciW
-
-" Search the current word in front / behind
-noremap ( #
-noremap ) *
+" Change in double quotes
+noremap J ci"
 
 " Join lines
 nnoremap <space>J J
@@ -68,7 +91,7 @@ nnoremap <space>w <C-w>w
 eclipseaction recenter org.eclipse.ui.edit.text.recenter
 nnoremap zz :recenter<cr>
 eclipseaction editorlist org.eclipse.ui.window.nextEditor
-nnoremap <space>b :editorlist<cr>
+nnoremap <space>j :editorlist<cr>
 
 
 set autoindent
@@ -80,4 +103,3 @@ set clipboard=unnamed
 
 set saney
 set contentassistmode
-set startnormalmode
