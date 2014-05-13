@@ -36,7 +36,6 @@ noremap <C-l> l
 nnoremap U <C-r>
 
 " Movement: operator-pending mode
-xnoremap p ip
 xnoremap ( i(
 xnoremap { i{
 xnoremap [ i[
@@ -44,7 +43,6 @@ xnoremap < i<
 xnoremap ` i"
 xnoremap ' i'
 xnoremap " i"
-onoremap p ip
 onoremap ( i(
 onoremap { i{
 onoremap [ i[
