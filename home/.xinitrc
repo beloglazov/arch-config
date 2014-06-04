@@ -9,5 +9,6 @@ xrdb -merge ~/.Xresources
 xxkb &
 urxvtd -q -o -f
 chromium &
+export PATH=~/bin:$PATH
 
 exec dbus-launch xmonad
