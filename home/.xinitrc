@@ -6,6 +6,7 @@ xsetroot -cursor_name left_ptr &
 ~/.mouse
 numlockx &
 xrdb -merge ~/.Xresources
+export JAVA_HOME=/usr/lib/jvm/java-default-runtime
 xxkb &
 urxvtd -q -o -f
 chromium &
