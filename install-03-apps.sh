@@ -10,6 +10,8 @@ yaourt -S xorg xorg-xinit haskell-xmonad haskell-xmonad-contrib \
     dosfstools ntfsprogs ctags gvim fzf-git cabal-install the_silver_searcher \
     wmctrl haskell-hlint fish alsamixer
 
+gem install curses
+
 mkdir -p ~/.config/ranger
 ranger --copy-config=scope
 
