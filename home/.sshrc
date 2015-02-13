@@ -1,0 +1,35 @@
+export VIMINIT="let \$MYVIMRC='$SSHHOME/.sshrc.d/.vimrc' | source \$MYVIMRC"
+
+# Prompt
+PS1="\[\033[91m\]\A \[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[94m\]\w\[\033[m\] "
+
+# Colorized ls
+eval `dircolors -b`
+
+export EDITOR='vim'
+
+# Aliases
+alias ls='ls --color -G'
+alias l='ls -lh'
+alias lh='l -d .*'
+alias ll='ls -alh'
+alias lls='ll -Sr'
+alias lt='ll -tr'
+alias v='vim'
+alias du='du -hs'
+alias g='grep -i'
+alias f='find . | g'
+
+# Git aliases
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit -a -m'
+alias gci='git commit'
+alias gca='git commit --amend -m'
+alias gco='git checkout'
+alias gd='git diff'
+alias gl='git log'
+alias gp='git push'
+alias gu='git pull --rebase'
+
+

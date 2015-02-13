@@ -11,6 +11,7 @@ ln -sfbv `pwd`/home/.xinitrc ~
 ln -sfbv `pwd`/home/.ctags ~/.ctags
 ln -sfbv `pwd`/home/.gitconfig ~/.gitconfig
 ln -sfbv `pwd`/home/.hawk ~/.hawk
+ln -sfbv `pwd`/home/.sshrc ~/.sshrc
 ln -sfbv `pwd`/home/.vrapperrc ~/.vrapperrc
 ln -sfbv `pwd`/home/.xxkbrc ~/.xxkbrc
 
