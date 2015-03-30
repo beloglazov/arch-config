@@ -1,7 +1,8 @@
 (sleep 10s && xset b off) &
 (sleep 10s && xset r rate 250 45) &
 setxkbmap -layout "us,ru" -option "grp:toggle,ctrl:nocaps,terminate:ctrl_alt_bksp"
-xcape -e 'Shift_L=parenleft;Shift_R=parenright;Control_R=BackSpace'
+xcape
+xcape -e 'Shift_L=parenleft;Shift_R=parenright;Control_R=underscore;Hyper_L=F1;Alt_L=F2'
 xset +fp /usr/share/fonts/local
 xsetroot -cursor_name left_ptr &
 ~/.mouse
