@@ -8,7 +8,7 @@ yaourt -S xorg xorg-xinit haskell-xmonad haskell-xmonad-contrib \
     elinks htop iftop lesspipe highlight ncdu feh hwinfo pydf atool libcaca \
     dzen2 mplayer tcl tk lnav ntfs-3g cloc zathura zathura-pdf-poppler dtrx \
     dosfstools ntfsprogs ctags gvim fzf-git cabal-install the_silver_searcher \
-    wmctrl haskell-hlint fish alsamixer sshrc
+    wmctrl haskell-hlint fish alsamixer sshrc tig xcape
 
 gem install curses
 
